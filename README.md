@@ -1,6 +1,6 @@
 # Discord.js-Userinfo Infomration
 
-This is a very simple command and feature to have apart of your bot, but it is very well organized and it displays a load of information about the user rather than the basic's like others. An exmaple is placed below within the screenshot. In order for the command to work you have to do the following;
+This is a very simple command and feature to have apart of your bot, but it is very well organized and it displays a load of information about the user rather than the basic's like others. An example is placed below within the screenshot. In order for the command to work you have to do the following;
 
 **/userinfo**
 
