@@ -4,7 +4,7 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
-	new SlashCommandBuilder().setName('userinfo').setDescription(`See cool & important information about yourself!`),
+	new SlashCommandBuilder().setName('userinfo').setDescription(`See info about yourself 💁`).addUserOption(option => option.setName('user').setDescription('Select a user').setRequired(true)),
 ]
 	.map(command => command.toJSON());
 
